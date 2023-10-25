@@ -1,0 +1,22 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.wrapper {
+     background: #FFF;
+     display: flex;
+     flex-direction: row-reverse;
+     max-width: 1200px;
+     margin: 0 auto;
+
+}
+.heading {
+    padding-top: 120px;
+    padding-left: 647px;
+    padding-right: 647px;
+    display: block;
+}
+.title {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+}
