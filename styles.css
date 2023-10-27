@@ -1,22 +1,96 @@
 body {
     font-family: 'Inter', sans-serif;
+    background-image: url(./images/1671448927_kalix-club-p-estetika-oboi-s-lyagushkami-milie-vkontakt-3.jpg);
 }
 .wrapper {
-     background: #FFF;
-     display: flex;
-     flex-direction: row-reverse;
-     max-width: 1200px;
-     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 
+    margin: 0 auto;
+
+}
+.main-content {
+    box-sizing: border-box;
+    
 }
 .heading {
     padding-top: 120px;
-    padding-left: 647px;
-    padding-right: 647px;
-    display: block;
 }
 .title {
     color: #000;
     font-size: 48px;
     font-weight: 700;
+    padding-left: 800px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.sub-title {
+    padding-left: 760px;
+    margin-bottom: 60px;
+    margin-top: 0;
+    color: forestgreen;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main-sub-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 900px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+.list-item {
+    padding-left: 260px;
+    margin-right: 0;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.title-list {
+    padding-left: 300px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.bottom {
+    margin-top: 160px;
+    background-color: rgba(107, 142, 35, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+.photo {
+    margin-right: 20px;
+}
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+}
+.title-author {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.biografy {
+    color: #212121;
+    font-size: 20px;
+    font-weight: 400;
+}
+.link {
+    color: #000;
+
+}
+
+.download {
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color:forestgreen;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin-top: 16px;
 }
